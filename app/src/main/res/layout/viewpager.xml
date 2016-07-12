@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+    <com.example.yg.helloworld.view.Footbar
+        android:id="@+id/footbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#000">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="item1"
+            android:textSize="18sp"
+            android:textColor="#FCFBFB"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="item2"
+            android:textSize="18sp"
+            android:textColor="#FCFBFB"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="item3"
+            android:textSize="18sp"
+            android:textColor="#FCFBFB"
+            android:gravity="center"/>
+    </com.example.yg.helloworld.view.Footbar>
+</LinearLayout>
