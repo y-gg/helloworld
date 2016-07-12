@@ -12,7 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.Toast;
-hhhhh
+
 public class MainActivity extends AppCompatActivity {
     String msg = "Android : ";
     /***活动第一次被创建时调用**/
